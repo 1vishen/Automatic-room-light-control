@@ -56,19 +56,20 @@ available methods in Literature survey
 # HARDWARE REQUIREMENT/DESCRIPTION
 The list of necessary components items required are mentioned below:
 Components Details
+
 Solderless Breadboard, 
-Arduino Uno
-ultrasonic sensor hc-sr04 ×2
-16×2 LCD Display
-100R Resistor 
-4.7k Resistor
-1k Resistor
-1-Channel 5v Relay Module
-Male to Male Jumper Wires
-Male to Female jumper Wires 
-220v LED Bulb, holder
-5v 2Amp Power Adapter
-Plug with wires attached
+Arduino Uno,
+ultrasonic sensor hc-sr04 ×2,
+16×2 LCD Display,
+100R Resistor,
+4.7k Resistor,
+1k Resistor,
+1-Channel 5v Relay Module,
+Male to Male Jumper Wires,
+Male to Female jumper Wires,
+220v LED Bulb, holder,
+5v 2Amp Power Adapter,
+Plug with wires attached,
 Small wires for breadboard and long wires
 
 # Software Used
