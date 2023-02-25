@@ -163,3 +163,7 @@ Instrumentation and Automation (ICCIA), Shiraz, 2017, pp. 284-289.
 # TinkerCad Simulation
 
 ![33](https://user-images.githubusercontent.com/74290353/221350291-a5cc7a6e-30d0-44eb-aada-f1fbb0036403.png)
+
+# Finished Model Image
+
+![55](https://user-images.githubusercontent.com/74290353/221350536-66cce41c-7895-4fdf-85e6-5f3b16577e9c.png)
