@@ -89,3 +89,77 @@ or decrement depending on entering or exiting of the person. And counting is dis
 through the controller.
 When any one enters in the room, Ultrasonic sensor will get interrupted by the object then other sensor 
 will not work because we have added a delay for a while.
+
+![11](https://user-images.githubusercontent.com/74290353/221350288-d05aabe0-4726-4ed1-8d6d-b4b41707e8c6.png)
+
+# CIRCUIT EXPLANATION
+There are some sections of whole visitor counter circuit that are sensor section, control section, display 
+section and driver section.
+Sensor section: In this section we have used two Ultrasonic sensor modules which contain Ultrasonic
+diodes, Arduino, and LED’s. Potentiometer is used for setting reference voltage at comparator’s one 
+terminal and Ultrasonic sensors sense the object or person and provide a change in voltage at 
+comparator’s second terminal. Then comparator compares both voltages and generates a digital signal 
+at output. Here in this circuit we have used two comparators for two sensors. Arduino is used as 
+comparator. Arduino has inbuilt two low noise Op-amp.
+Control Section: Arduino UNO is used for controlling whole the process of this visitor counter project. 
+The outputs of comparators are connected to digital pin number 14 and 19 of arduino. Arduino read 
+these signals and send commands to relay driver circuit to drive the relay for light bulb controlling. If you 
+find any difficulty in working with relay, check out this tutorial on arduino relay control to learn more 
+about operating relay with Arduino.
+Arduino Uno As Processing Unit: Arduino Uno is a microcontroller in which ATmega328 microprocessor 
+is used which is shown in the Figure 2.
+It has 6 analog input pins and 14 digital input or output pins which can be used as PWM(Pulse Width 
+Modulation) outputs. It has its own programming language. The crystal oscillator frequency of this 
+microcontroller is 16MHz. It has USB cable which can simply connect with computer, power barrel jack, 
+reset button and ICSP (In Circuit Serial Programming). Each pin of the Arduino Uno is operated at 5V.The 
+programming language of this microcontroller is not complex.
+Display section: Display section contains a 16x2 LCD. This section will display the counted number of 
+people and light status when no one will in the room.
+Relay Driver section: Relay driver section consist a BC547 transistor and a 5 volt relay for controlling the 
+light bulb. Transistor is used to drive the relay because arduino does not supply enough voltage and 
+current to drive relay. So we added a relay driver circuit to get enough voltage and current for relay. 
+Arduino sends commands to this relay driver transistor and then light bulb will turn on/off accordingly.
+A relay is a digital switch that controls much higher currents and voltages. This device is widely used in 
+power protection. The benefits of this device are small in size, stability and long-time reliable and it can 
+be also used for both ac and dc systems. Relay has three terminals that are normally closed terminal, 
+normally open terminal and common terminal. It has three pins GND, VCC and input signal.
+
+# Visitor Counter Circuit Diagram
+The outputs of IR Sensor Modules are directly connected to arduino digital pin number 14(A0) and 
+19(A5). And Relay driver transistor at digital pin 2. LCD is connected in 4 bit mode. RS and EN pin of LCD 
+is directly connected at 13 and 12. Data pin of LCD D4-D7 is also directly connected to arduino at D11-D8 
+respectively. Rest of connections are shown in the below circuit diagram.
+
+![22](https://user-images.githubusercontent.com/74290353/221350285-f96e1c28-39de-478d-b6c3-59357e5ace2c.png)
+
+# CONCLUSION
+The paper has introduced the idea of automated homes and proposed a method which saves power 
+consumption by system. This Automated Gadget Control System having the interconnections between 
+the home appliances and sensors for contrelling and monitoring the device. Automated home is a vast 
+system that having multiple technologies and its applications that can be used to provide control and 
+security of the homes easily.
+
+# FUTURE WORK
+There are many technologies that can be used in automatic lighting systems to make the system more 
+accurate. To make the system more professional GSM (Global System for Mobile) module can be used to 
+get notifications. There are some sensors that can be used to control and secure the home. For example, 
+pressure sensor used to detect the occupancy which will be placed outside the door. Image processing 
+can also be used to detect a person's presence by using digital camera.
+
+# REFERENCES
+1) Vibhuti and Shimi S.L., "Implementation of Smart Class Room Using WAGO PLC", Proceedings of the 
+Second International Conference on Inventive Systems and Control (ICISC) 2018, Coimbatore, pp. 807-
+812.
+2) A. Maslekar, K. Apama, K. Mamatha and T.Shivakumara, "Smart Lighting System using Raspberry Pi", 
+International Journal of Innovative Research in Science and Technology, Vol.4(7), 2015, pp.5113-51211.
+3) Suresh S, H.N.S.Anusha, T.Rajath, P.Soundarya and S.V,PrathyushaVudatha. "Automatic Lighting And 
+Control System For Classroom" 2016 International Conference on ICT in Business Industry & Goverment 
+(ICTBIG).
+4) Vahid Hassanpour, Sedighe Rajabi, Zeinab Shayan, Zahra Hafezi, Mohammad Mehdi Arefi, "Low-Cost 
+Home Automation Using Arduino and Modbus Protocol", 5th International Conference on Control, 
+Instrumentation and Automation (ICCIA), Shiraz, 2017, pp. 284-289.
+5) https://components101.com/microcontrollers/arduino-Uno
+
+# TinkerCad Simulation
+
+![33](https://user-images.githubusercontent.com/74290353/221350291-a5cc7a6e-30d0-44eb-aada-f1fbb0036403.png)
