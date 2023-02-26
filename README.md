@@ -149,8 +149,7 @@ can also be used to detect a person's presence by using digital camera.
 
 # REFERENCES
 1) Vibhuti and Shimi S.L., "Implementation of Smart Class Room Using WAGO PLC", Proceedings of the 
-Second International Conference on Inventive Systems and Control (ICISC) 2018, Coimbatore, pp. 807-
-812.
+Second International Conference on Inventive Systems and Control (ICISC) 2018, Coimbatore, pp. 807-812.
 2) A. Maslekar, K. Apama, K. Mamatha and T.Shivakumara, "Smart Lighting System using Raspberry Pi", 
 International Journal of Innovative Research in Science and Technology, Vol.4(7), 2015, pp.5113-51211.
 3) Suresh S, H.N.S.Anusha, T.Rajath, P.Soundarya and S.V,PrathyushaVudatha. "Automatic Lighting And 
