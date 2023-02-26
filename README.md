@@ -28,30 +28,26 @@ fan, AC, etc. can be operated spontaneously by using PIR sensor and on the basis
 conditions. In real-time implementation, automatic control is done by sensor data and manual control is 
 done by android application.
 But, difficulty in this paper is the controlling and monitoring of devices done by WAGO PLC and Arduino 
-Uno both. These operations can be done by using only Arduino Uno. Maslekar et al [2] proposed a smart 
+Uno both. These operations can be done by using only Arduino Uno. Maslekar et al proposed a smart 
 lighting system in which Raspberry Pi has used. Raspberry Pi is monitoring lights and fans 
 simultaneously. In the absence of person room lights and fans will automatically turns OFF. Energy is 
 preserved by using this smart lighting system. The experimental results of this system have shown that 
 50% energy is conserved. But the difficulty is Raspberry Pi is more expensive than Arduino Uno. 
 Automatic Lighting and Control System for Classroom in which electrical light is controlled by Bluetooth, 
 PIR sensor and relay. To switch ON or OFF the light Bluetooth module is connected to Arduino Uno which 
-sends voice command from Arduino Uno by using the mobile android application. The experimental 
-results have shown the 50% energy is conserved. But this paper can be implemented by removing the 
-Bluetooth module as well [3]. In [4], the disquisitions speak about automatic room light system by using 
+sends voice command from Arduino Uno by using the mobile android application. This paper can be implemented by removing the 
+Bluetooth module as well. In the disquisitions speak about automatic room light system by using 
 visitor counters operation. Depending upon the human presence, the room lights ON or OFF. There is no 
 need of manual operation for switching. The PIR sensor is used to the human presence which is at the 
 entrance of room. As visitor counter is used, there is increment in the counter when person enters in the 
 room and this leads to turn ON the room light which is controlled by microcontroller program. If person 
 exits the room, the counter decremented and this leads to tum OFF the lights. When all persons left the 
 room then only lights in the room switched OFF. The difficulty in this system is that the door of room 
-should not allow more than one person at a time. Vahid et al [5] proposed a system whose control is 
-depend on Arduino microcontroller, network communications and Modbus industrial protocol. Arduino 
-Ethernet shield and a wireless router device is used to built the network communication. The specific 
+should not allow more than one person at a time. Arduino Ethernet shield and a wireless router device is used to built the network communication. The specific 
 Android application is used to load the Modbus program into mobile or Windows software named 
 "mypro" and on Arduino board, Arduino code loaded through USB (Universal Serial Bus) cable. There is 
 interconnection between Arduino Ethernet Shield and mobile through Ethernet cable and router. By 
-connecting to router, user can control and monitor the appliances easily. The Table 1 summarizes the 
-available methods in Literature survey
+connecting to router, user can control and monitor the appliances easily.
 
 # HARDWARE REQUIREMENT/DESCRIPTION
 The list of necessary components items required are mentioned below:
